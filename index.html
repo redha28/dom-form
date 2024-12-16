@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <form id="myForm">
+      <div class="input-wrapper">
+        <label for="nama">Nama: </label>
+        <input
+          type="text"
+          id="telepon"
+          name="nama"
+          placeholder="Nama"
+          required />
+      </div>
+
+      <div class="input-wrapper">
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Email"
+          required />
+      </div>
+
+      <div class="input-wrapper">
+        <label for="telepon">Telepon:</label>
+        <input
+          type="tel"
+          id="telepon"
+          name="telepon"
+          placeholder="Nomor Telepon"
+          required />
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+
+    <section id="result"></section>
+
+    <main class="form-container">
+      <form id="myForm2">
+        <div class="input-wrapper">
+          <label for="name">Name:</label>
+          <input id="name2" type="text" placeholder="Nama Lengkap" required />
+        </div>
+        <div class="input-wrapper">
+          <label for="email">Email:</label>
+          <input id="email2" type="email" placeholder="Alamat Email" required />
+        </div>
+        <div class="input-wrapper">
+          <label for="job">Pekerjaan:</label>
+          <input id="job2" type="text" placeholder="Pekerjaan" required />
+        </div>
+        <div class="input-wrapper">
+          <label for="phone">Phone:</label>
+          <input id="phone2" type="tel" placeholder="Nomor Telepon" required />
+        </div>
+        <button type="button" id="submitButton2">Kirim Data</button>
+      </form>
+      <section id="result2"></section>
+    </main>
+  </body>
+</html>
